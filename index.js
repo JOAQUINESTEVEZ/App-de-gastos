@@ -17,9 +17,13 @@ function pagosPersonas() {
     }
     let totalDividido = total / cantidadPersonas;
     
+    if (total >= 0) {
+        divTotal.innerHTML = "<h2>" + "Total: " + total + "$" + "</h2>"; 
+        divTotalDividido.innerHTML = "<h2>" + "Cada uno debe pagar un total de: " + totalDividido + "$" + "</h2>";
+    } else {
+        alert("Por favor ingrese un valor numerico");
+    }
     
-    divTotal.innerHTML = "<h2>" + "Total: " + total + "$" + "</h2>"; 
-    divTotalDividido.innerHTML = "<h2>" + "Cada uno debe pagar un total de: " + totalDividido + "$" + "</h2>";
 
     
 }

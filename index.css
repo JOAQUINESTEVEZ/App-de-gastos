@@ -1,16 +1,32 @@
-body {
-    background-color: rgb(188, 82, 82);
+#body {
+    background-color: rgb(237, 245, 243);
 }
 
-header {
-    background-color: rgb(125, 203, 234);
+.titulo {
+    background-color: rgb(193, 193, 220);
     padding: 50px;
     text-align: center;
+    margin: 30px;
+    color: white;
+    font-family: 'Magra', sans-serif;
+    font-size: larger;
+    border: solid;
+}
+.tituloPrincipal {
+    font-size: 50px;
 }
 
-/*.resultados {
-    background-color: aqua;
-    border-color: rgb(184, 37, 37);
-    border-radius: 2px;
-    
-}*/
+#personas {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+#pagos {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.resultados {
+    margin: 30px;
+    color: rgb(159, 159, 225);
+    font-family: 'Magra', sans-serif;
+    text-align: center;
+}
