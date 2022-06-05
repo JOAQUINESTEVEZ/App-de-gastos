@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(188, 82, 82);
+}
+
+header {
+    background-color: rgb(125, 203, 234);
+    padding: 50px;
+    text-align: center;
+}
+
+/*.resultados {
+    background-color: aqua;
+    border-color: rgb(184, 37, 37);
+    border-radius: 2px;
+    
+}*/
