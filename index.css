@@ -6,7 +6,7 @@
     background-color: rgb(193, 193, 220);
     padding: 50px;
     text-align: center;
-    margin: 30px;
+    /*margin: 30px;*/
     color: white;
     font-family: 'Magra', sans-serif;
     font-size: larger;
@@ -16,17 +16,3 @@
     font-size: 50px;
 }
 
-#personas {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-#pagos {
-    margin-left: 30px;
-    margin-right: 30px;
-}
-.resultados {
-    margin: 30px;
-    color: rgb(159, 159, 225);
-    font-family: 'Magra', sans-serif;
-    text-align: center;
-}
